@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>About Varun</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="common/reset.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- build:css(.tmp) styles/app.css -->
+   
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endbuild -->
+</head>
+<body ng-app="trader">
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<ng-view></ng-view>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="../bower_components/angular-resource/angular-resource.js"></script>
+<script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../bower_components/angular-animate/dist/angular-animate.min.js"></script>
+<script src="../bower_components/angular-strap/dist/angular-strap.min.js"></script>
+<script src="../bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+<script src="../bower_components/angular-socket-io/socket.js"></script>
+<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+<script src="../bower_components/d3/d3.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js scripts/app.js -->
+<script src="app.js"></script>
+
+<!-- Dialogue box -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script> -->
+<!-- The templates.js files is special because we load it from the .tmp/ folder-->
+<script src="templates.js"></script>
+
+<script src="routes.js"></script>
+
+<script src="common/sapeMessage.directive.js"></script>
+
+<script src="home/home.controller.js"></script>
+<script src="dashboard/dashboard.controller.js"></script>
+<script type="text/javascript" src="dashboard/Instrument.js"></script>
+<script type="text/javascript" src="dashboard/Order.js"></script>
+<script type="text/javascript" src="home/userFactory.js"></script>
+<script type="text/javascript" src="dashboard/instrumentService.js"></script>
+<script type="text/javascript" src="dashboard/orderService.js"></script>
+<script type="text/javascript" src="home/loginService.js"></script>
+<script type="text/javascript" src="dashboard/randomize.js"></script>
+
+<script type="text/javascript" src="dashboard/websocket-service.js"></script>
+<script type="text/javascript" src="constants.js"></script>
+<!-- endbuild -->
+</body>
+</html>
