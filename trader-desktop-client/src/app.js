@@ -9,7 +9,7 @@
         'ngResource',
         'ngSanitize',
         'mgcrea.ngStrap',
-        'trader.templates',
+        /*'trader.templates',*/
         'trader.login',
         'trader.dashboard',
         'btford.socket-io',
