@@ -1,7 +1,6 @@
-/*globals d3*/
 'use strict';
 angular.module('myApp.contact')
-    .controller('contactController',function($location,$scope){
+    .controller('contactController',function(){
 
 
 
@@ -258,4 +257,4 @@ angular.module('myApp.contact')
             $scope.orders = [];
             $scope.chartRemover();
         });*/
-    }); //End of Controller
+}); //End of Controller

@@ -1,6 +1,6 @@
 'use strict';
 angular.module('myApp.login')
-    .controller('HomeController',function($scope,$location){
+    .controller('HomeController',function(){
     
 
 

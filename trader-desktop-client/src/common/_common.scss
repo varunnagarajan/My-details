@@ -1,3 +1,46 @@
 body {
     font-family: Helvetica Neue, Helvetica, Arial;
 }
+
+.container-fluid{
+	background-color: #43454A;
+}
+
+/* Header */
+.main-header{
+	.header-nav{
+		margin-top:10px;
+		.header-image{
+			float:left;
+			width:23%;
+			margin: 0px 20px 10px 0px;
+			display:block;
+			border-radius:50%;
+		}	
+	}
+	.header-anchor{
+		color:white !important;
+		background-color: #43454A !important;
+		font-size: 20px !important;
+		position:relative;
+		top:4px;
+	}
+	.header-image-name{
+
+	}
+	.header-name{
+		font-size:20px;
+		color: white;
+		background-color: #43454A;
+		position:relative;
+		top:19px;
+	}
+}
+
+/* Footer */
+.main-footer{
+	.panel-footer{
+		background-color: #43454A;
+		color:white;
+	}
+}

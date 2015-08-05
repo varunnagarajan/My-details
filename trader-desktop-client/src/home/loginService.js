@@ -1,5 +1,5 @@
 'use strict';
-angular.module('myApp').service('loginService', function($http,$q,User){
+angular.module('myApp').service('loginService', function(){
         
     /*this.getAll = function(){
         var defered = $q.defer();
