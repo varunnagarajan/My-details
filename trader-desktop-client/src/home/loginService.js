@@ -1,7 +1,7 @@
 'use strict';
-angular.module('trader').service('loginService', function($http,$q,User){
+angular.module('myApp').service('loginService', function($http,$q,User){
         
-    this.getAll = function(){
+    /*this.getAll = function(){
         var defered = $q.defer();
         var httpPromise = $http({method :'get', url :'http://localhost:8080/users'});
         httpPromise.then(function(response){
@@ -12,5 +12,5 @@ angular.module('trader').service('loginService', function($http,$q,User){
             defered.resolve(result);
         });
         return defered.promise;
-    };
+    };*/
 });

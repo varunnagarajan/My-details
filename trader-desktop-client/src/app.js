@@ -1,20 +1,19 @@
 (function () {
 
     'use strict';
-    angular.module('trader.login', []);
-    angular.module('trader.dashboard', []);
-    angular.module('trader', [
+    angular.module('myApp.login', []);
+    angular.module('myApp.contact', []);
+    angular.module('myApp', [
 
         'ngRoute',
         'ngResource',
         'ngSanitize',
         'mgcrea.ngStrap',
-        /*'trader.templates',*/
-        'trader.login',
-        'trader.dashboard',
+        'myApp.login',
+        'myApp.contact',
         'btford.socket-io',
     ])
         .run(function ($log) {
-            $log.log('Trader Application is working');
+            $log.log('Application has loaded');
         });
 })();

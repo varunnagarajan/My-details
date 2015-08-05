@@ -1,4 +1,4 @@
-angular.module('trader')
+angular.module('myApp')
     .config(function ($routeProvider) {
         'use strict';
         $routeProvider
@@ -6,9 +6,9 @@ angular.module('trader')
                 templateUrl: 'home/home.html',
                 controller: 'HomeController'
             })
-            .when('/dashboard', {
-                templateUrl: 'dashboard/dashboard.html',
-                controller: 'DashboardController'
+            .when('/Contact', {
+                templateUrl: 'contact/contact.html',
+                controller: 'contactController'
             })
             .otherwise({ redirectTo: '/' });
     });

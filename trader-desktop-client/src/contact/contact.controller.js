@@ -1,9 +1,13 @@
 /*globals d3*/
 'use strict';
-angular.module('trader.dashboard')
-    .controller('DashboardController',function($location,$rootScope,$scope,
-        instrumentService,orderService,randomize,OrderEventsService,OrderEventType){
-        $scope.toggleView = true;
+angular.module('myApp.contact')
+    .controller('contactController',function($location,$scope){
+
+
+
+
+        // OLD CODE TRADER APP
+        /*$scope.toggleView = true;
         $scope.span=false;                  //Variable for showing error Message in span
         var sideArray = ['Buy','Sell'];     //Array for side to be randomized
         var name = [];                      //Array which holds all the symbols from instruments
@@ -14,7 +18,7 @@ angular.module('trader.dashboard')
             $location.path('/');
         }
 
-        (function(){          /*This function is to fetch all instruments from server and push into name*/
+        (function(){          //This function is to fetch all instruments from server and push into name
             var instrumentPromise = instrumentService.getAll();
             instrumentPromise.then(function(result){
                 $scope.instruments = result;
@@ -253,5 +257,5 @@ angular.module('trader.dashboard')
         OrderEventsService.on(OrderEventType.cleared,function(){  //Websockets removing all orders
             $scope.orders = [];
             $scope.chartRemover();
-        });
+        });*/
     }); //End of Controller

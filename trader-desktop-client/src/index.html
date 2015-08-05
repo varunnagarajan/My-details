@@ -6,21 +6,21 @@
     <meta name="description" content="Web designer and Data Analyst">
     <meta name="viewport" content="width=device-width">
     <!-- <link rel="stylesheet" href="app.css"> -->
-    <!-- <link rel="stylesheet" href="common/reset.css"> -->
+    <link rel="stylesheet" href="common/reset.css">
     <link rel="shortcut icon" href="assets/varun-icon.png">
     <!-- build:css(.tmp) styles/app.css -->
    
-    <!-- <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- endbuild -->
 </head>
-<body ng-app="trader">
+<body ng-app="myApp">
 <!--[if lt IE 10]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
-
+<div ng-include="'common/header.html'"></div>
 <ng-view></ng-view>
-
+<div ng-include="'common/footer.html'"></div>
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="../bower_components/jquery/dist/jquery.js"></script>
@@ -52,16 +52,12 @@
 <!-- <script src="common/sapeMessage.directive.js"></script>
  -->
 <script src="home/home.controller.js"></script>
-<script src="dashboard/dashboard.controller.js"></script>
-<script type="text/javascript" src="dashboard/Instrument.js"></script>
-<script type="text/javascript" src="dashboard/Order.js"></script>
-<script type="text/javascript" src="home/userFactory.js"></script>
-<script type="text/javascript" src="dashboard/instrumentService.js"></script>
-<script type="text/javascript" src="dashboard/orderService.js"></script>
+<script src="contact/contact.controller.js"></script>
+<script type="text/javascript" src="contact/instrumentService.js"></script>
+<script type="text/javascript" src="contact/orderService.js"></script>
 <script type="text/javascript" src="home/loginService.js"></script>
-<script type="text/javascript" src="dashboard/randomize.js"></script>
 
-<script type="text/javascript" src="dashboard/websocket-service.js"></script>
+<script type="text/javascript" src="contact/websocket-service.js"></script>
 <script type="text/javascript" src="constants.js"></script>
 <!-- endbuild -->
 </body>

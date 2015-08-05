@@ -1,5 +1,5 @@
 'use strict';
-angular.module('trader.dashboard').service('orderService', function($http,$q,Order){
+angular.module('myApp.contact').service('orderService', function($http,$q,Order){
         
     this.getAll = function(){
         var defered = $q.defer();

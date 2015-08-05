@@ -1,5 +1,5 @@
 /*globals io*/
-angular.module('trader.dashboard')
+angular.module('myApp.contact')
     .service('OrderEventsService', function (ServerUrl, socketFactory) {
 
         'use strict';

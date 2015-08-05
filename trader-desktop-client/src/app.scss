@@ -1,14 +1,16 @@
-// Module specific styles
 @import "common/common";
 @import "common/colors";
 @import "common/mixins";
 @import "home/login";
-@import "dashboard/dashboard";
-@import "dashboard/popup";
+@import "contact/contact";
+@import "contact/popup";
 
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+}
+body{
+	background-color:green;
 }
