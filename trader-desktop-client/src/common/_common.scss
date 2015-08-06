@@ -1,7 +1,15 @@
-body {
-    font-family: Helvetica Neue, Helvetica, Arial;
+//For Font
+*{
+	font-family: sans-serif;
+}
+:root{
+	background-color: $color-dark-background;
+}
+.clear{
+	clear:both;
 }
 
+//For scrollbar
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -12,49 +20,59 @@ body {
 }
  
 ::-webkit-scrollbar-thumb {
+	background: #61d0d4;
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
-.container-fluid{
-	background-color: #43454A;
-}
-
-/* Header */
+//Page Header
 .main-header{
-	.header-nav{
-		margin-top:10px;
-		.header-image{
-			float:left;
-			width:23%;
-			margin: 0px 20px 10px 0px;
-			display:block;
-			border-radius:50%;
-		}	
+	background-color: $color-dark-background;
+	padding:50px 300px 30px 300px;
+	.header-nameQoute{
+		margin-right:50px;
+		float:left;
+		width:265px;
+		height:82px;
+		.header-name{
+			color:$color-bright;
+			font-size:20px;
+			font-weight: bold;
+		}
+		.header-qoute{
+			padding-top:10px;
+			color:$color-bright;
+			font-size: 15px;
+		}
 	}
-	.header-anchor{
-		color:white !important;
-		background-color: #43454A !important;
-		font-size: 22px !important;
-		position:relative;
-		top:4px;
-	}
-	.header-image-name{
-
-	}
-	.header-name{
-		font-size:20px;
-		color: white;
-		background-color: #43454A;
-		position:relative;
-		top:19px;
+	.header-navbar{
+		float:left;
+		padding-top: 30px;
+		a{
+			font-size: 15px;
+			color:#8B8B8B;
+			margin-right: 30px;
+		}
 	}
 }
 
-/* Footer */
+//Page Footer
 .main-footer{
-	.panel-footer{
-		background-color: #43454A;
-		color:white;
+	height:200px;
+	padding-top: 50px;
+	background-color:$color-footer;
+	.footer-outer{
+		margin-left: 250px;
+		div{
+			margin-right: 20px;
+			color:$color-bright;
+			float:left;
+			width:200px;
+			height:150px;
+			font-size:20px;
+			span{
+				margin-right:10px;
+			}
+		}
 	}
 }

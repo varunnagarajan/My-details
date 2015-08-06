@@ -6,7 +6,15 @@ angular.module('myApp')
                 templateUrl: 'home/home.html',
                 controller: 'HomeController'
             })
-            .when('/Contact', {
+            .when('/contact', {
+                templateUrl: 'contact/contact.html',
+                controller: 'contactController'
+            })
+            .when('/resume', {
+                templateUrl: 'contact/contact.html',
+                controller: 'contactController'
+            })
+            .when('/hobbies', {
                 templateUrl: 'contact/contact.html',
                 controller: 'contactController'
             })
