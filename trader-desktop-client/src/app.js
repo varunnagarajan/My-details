@@ -11,9 +11,8 @@
         'mgcrea.ngStrap',
         'myApp.login',
         'myApp.contact',
-        'btford.socket-io',
     ])
         .run(function ($log) {
-            $log.log('Application has loaded');
+            $log.log('My application has loaded');
         });
 })();
