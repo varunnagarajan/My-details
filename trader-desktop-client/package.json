@@ -1,9 +1,9 @@
 {
-    "name": "exercise-template-angular",
+    "name": "my-App-angular",
     "version": "0.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sapient-gmid/gmi-training.git"
+        "url": "https://github.com/varunnagarajan/My-details"
     },
     "dependencies": {
     },

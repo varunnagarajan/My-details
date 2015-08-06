@@ -8,7 +8,6 @@
         'ngRoute',
         'ngResource',
         'ngSanitize',
-        'mgcrea.ngStrap',
         'myApp.login',
         'myApp.contact',
     ])
