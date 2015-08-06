@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" ng-controller="headerController">
   <div class="container-fluid">
   	<div class="header-nav">
 	    <div class="navbar-header">
@@ -9,8 +9,8 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      <div class="header-image-name">
-		      <img class="header-image" src="assets/varun-pic.jpg" alt="Varun">
-		      <span class="header-name">Varun Nagarajan</span>
+		      <img class="header-image" src="assets/varun-pic.jpg" alt="Varun" ng-click="showName()">
+		      <span class="header-name" ng-show="toggleNameDisplay">Varun Nagarajan</span>
 	      </div>
 	    </div>
 
