@@ -1,14 +1,15 @@
 (function () {
 
     'use strict';
-    angular.module('myApp.login', []);
+    angular.module('myApp.home', []);
     angular.module('myApp.contact', []);
     angular.module('myApp', [
 
         'ngRoute',
         'ngResource',
         'ngSanitize',
-        'myApp.login',
+        'myApp.templates',
+        'myApp.home',
         'myApp.contact',
     ])
         .run(function ($log) {
