@@ -179,7 +179,6 @@ module.exports = function (grunt) {
                     src: [
                         'dist/{,*/}*.js',
                         'dist/{,*/}*.css',
-                        'dist/images/{,*/}*.*',
                         'dist/fonts/{,*/}*.*',
                         'dist/*.{ico,png}'
                     ]
@@ -304,7 +303,7 @@ module.exports = function (grunt) {
                 base: 'src',
                 quoteChar: '\'',
                 useStrict: true,
-                module: 'trader.templates',
+                module: 'myApp.templates',
                 singleModule: true
             },
             main: {

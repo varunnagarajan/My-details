@@ -1,4 +1,4 @@
 'use strict';
-angular.module('myApp.login')
+angular.module('myApp.home')
     .controller('HomeController',function(){
 });
