@@ -1,0 +1,45 @@
+//For Resume Page
+.resume-all{
+	margin:50px 200px;
+	.resume-title{
+		font:'Noticia Text', serif;
+		font-size: 32px;
+		font-weight: bold;
+	}
+	
+	//Common text tile circle styling
+	.resume-sub-title{
+		float:left;
+		margin-bottom: 20px;
+		margin-right: 60px;
+		border-radius: 50%;
+		width:100px;
+		height: 100px;
+		background-color: rgba(97, 208, 212, 1);
+		span{
+			font-size: 15px;
+			font-weight: bold;
+			position: relative;
+			top:40%;
+			left:10%;
+			color: $color-dark-background;
+		}
+	}
+
+	//Styling for each section
+	.resume-main{
+		padding-top: 20px;
+		.resume-objective-main{
+			float:left;
+			width: 300px;
+			height:100px;
+			padding-top:24px;
+			font-size: 15px;
+		}
+	}
+	.resume-work{
+		span{
+			top:30px;
+		}
+	}
+}

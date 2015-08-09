@@ -11,12 +11,12 @@ angular.module('myApp')
                 controller: 'contactController'
             })
             .when('/resume', {
-                templateUrl: 'contact/contact.html',
-                controller: 'contactController'
+                templateUrl: 'resume/resume.html',
+                controller: 'resumeController'
             })
             .when('/hobbies', {
-                templateUrl: 'contact/contact.html',
-                controller: 'contactController'
+                templateUrl: 'hobbies/hobbies.html',
+                controller: 'hobbiesController'
             })
             .otherwise({ redirectTo: '/' });
     });

@@ -33,21 +33,20 @@
 //Page Header
 .main-header{
 	background-color: $color-dark-background;
-	padding:50px 300px 30px 300px;
+	padding:50px 300px 30px 253px;
 	.header-nameQoute{
 		margin-right:50px;
 		float:left;
-		width:265px;
+		width:327px;
 		height:82px;
 		.header-name{
-			color:$color-bright;
-			font-size:30px;
-			font-weight: bold;
+			font: normal normal bold 43px/1.2em 'Noticia Text',serif;
+			color:#4D4D4D;
 		}
 		.header-qoute{
 			padding-top:10px;
-			color:$color-bright;
-			font-size: 20px;
+			color:#4D4D4D;
+			font-size: 25px;
 		}
 	}
 	.header-navbar{
@@ -97,6 +96,10 @@
 		.footer-copyright-name{
 			margin:0 320px;
 			margin-bottom: 30px;
+		}
+		.footer-copyright-description{
+			margin:0 127px;
+			font-size: 14px;
 		}
 		margin:0 200px;
 		margin-top: 30px;
