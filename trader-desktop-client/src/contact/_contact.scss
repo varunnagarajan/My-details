@@ -1,0 +1,27 @@
+.contact{
+	//general property of page
+	background-color: $color-dark-background;
+	padding:50px 200px;
+	
+	// MAP css according to google
+	#map {
+        width: 500px;
+        height: 400px;
+        background-color: #CCC;
+    }
+	
+	//Each component of page
+	.contact-title{
+		font-family: 'Noticia Text', serif;
+		font-size:32px;
+		padding-left: 385px;
+		padding-bottom: 45px;
+	}
+	.contact-main{
+		margin-left: 20px;
+		div{
+			font-size: 15px;
+			padding-bottom: 20px;
+		}
+	}
+}
