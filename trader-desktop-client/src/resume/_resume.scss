@@ -61,6 +61,12 @@
 	width:1000px;
 	border-bottom:1px solid rgba(139, 139, 139, 1);
 }
+.work-sub-title{
+	margin-top: 200px;
+}
+.extra-sub-title{
+	margin-top: 125px;
+}
 .resume-main{
 	padding-top: 20px;
 	.resume-objective-main{
@@ -149,14 +155,20 @@
 }
 
 //Projects Section
-.resume-projects-main,.resume-softwares-main,.resume-extra-main{
+.resume-projects-main,.resume-softwares-main{
 	padding-top: 7%;
 	div{
 		font-size: 15px;
 		padding-bottom: 3%;
 	}
 }
-
+.resume-extra-main{
+	padding-top: 3%;
+	div{
+		font-size: 15px;
+		padding-bottom: 3%;
+	}
+}
 .resume-extra-curricular{
 	height:440px !important;
 	.resume-sub-title{
