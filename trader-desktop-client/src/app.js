@@ -4,6 +4,7 @@
     angular.module('myApp.home', []);
     angular.module('myApp.resume', []);
     angular.module('myApp.hobbies', []);
+    angular.module('myApp.recognitions', []);
     angular.module('myApp.contact', []);
     angular.module('myApp', [
 
@@ -14,6 +15,7 @@
         'myApp.home',
         'myApp.resume',
         'myApp.hobbies',
+        'myApp.recognitions',
         'myApp.contact',
     ])
         .run(function ($log) {

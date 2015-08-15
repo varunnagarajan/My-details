@@ -18,5 +18,9 @@ angular.module('myApp')
                 templateUrl: 'hobbies/hobbies.html',
                 controller: 'hobbiesController'
             })
+            .when('/recognitions', {
+                templateUrl: 'recognitions/recognitions.html',
+                controller: 'recognitionsController'
+            })
             .otherwise({ redirectTo: '/' });
     });
