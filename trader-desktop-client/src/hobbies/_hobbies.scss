@@ -1,4 +1,48 @@
 .hobbies{
 	background-color: $color-dark-background;
 	padding: 50px 200px;
+	font-size: 25px;
+	.hobbies-title{
+		font-family : 'Noticia Text', serif;
+		font-size: 32px;
+		padding-left: 340px;
+		padding-bottom: 25px;
+	}
+	img{
+		width: 200px;
+		height:200px;
+		border-radius: 50%;
+	}
+	.hobbies-sports{
+		img{
+			margin-right: 18%;
+		}
+		.hobbies-sports-main{
+			span{
+				padding-left:5%;
+				padding-right: 24%;
+			}
+		}
+	}
 }
+/* .hobbies-main{
+	div{
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+}
+.hobbies-music{
+	img{
+		margin-right: 10%;
+	}
+}
+.hobbies-travel{
+	img{
+		margin-right: 10%;
+	}
+}
+.hobbies-adventure{
+	img{
+		margin-right: 10%;
+	}
+} */
