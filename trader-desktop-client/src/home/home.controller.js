@@ -1,14 +1,13 @@
 'use strict';
 angular.module('myApp.home')
     .controller('HomeController',function($scope,$location){
-        $scope.gotoResume = function(){
-            $location.path('/resume');
+        $scope.gotodataScience = function(){
+            $location.path('/dataScience');
         };
-        $scope.gotoHobbies = function(){
-            $location.path('/hobbies');
+        $scope.gotoui = function(){
+            $location.path('/ui');
         };
-        $scope.gotoRecognitions = function(){
-            $location.path('/recognitions');
+        $scope.gotoeducation = function(){
+            $location.path('/education');
         };
-        
     });

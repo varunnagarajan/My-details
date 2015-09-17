@@ -6,21 +6,25 @@ angular.module('myApp')
                 templateUrl: 'home/home.html',
                 controller: 'HomeController'
             })
-            .when('/contact', {
-                templateUrl: 'contact/contact.html',
-                controller: 'contactController'
-            })
             .when('/resume', {
                 templateUrl: 'resume/resume.html',
                 controller: 'resumeController'
             })
-            .when('/hobbies', {
-                templateUrl: 'hobbies/hobbies.html',
-                controller: 'hobbiesController'
+            .when('/contact', {
+                templateUrl: 'contact/contact.html',
+                controller: 'contactController'
             })
-            .when('/recognitions', {
-                templateUrl: 'recognitions/recognitions.html',
-                controller: 'recognitionsController'
+            .when('/dataScience', {
+                templateUrl: 'blogs/dataScience.html',
+                controller: 'dataScienceController'
+            })
+            .when('/ui', {
+                templateUrl: 'blogs/ui.html',
+                controller: 'uiController'
+            })
+            .when('/education', {
+                templateUrl: 'blogs/education.html',
+                controller: 'educationController'
             })
             .otherwise({ redirectTo: '/' });
     });
